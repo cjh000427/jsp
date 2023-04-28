@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 영상 크기 800-600 앨범 100-100 -->
+	<form action="req_album_result.jsp">
+		<input type="radio" name="check" value="iu"> <br> <input
+			type="radio" name="check" value="ive"> <br> <input
+			type="submit" value="확인">
+
+
+		<table>
+			<tr>
+				<th></th>
+				<th>이미지</th>
+				<th>가수</th>
+				<th>노래 제목</th>
+				<th>발매일</th>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+
+
+	</form>
+
+</body>
+</html>

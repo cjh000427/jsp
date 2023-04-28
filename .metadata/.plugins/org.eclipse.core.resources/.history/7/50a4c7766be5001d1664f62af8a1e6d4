@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="req_album_result.jsp">
+		<input type="radio" name="check" value="iu"> 
+		<input type="radio" name="check" value="ive"> 
+		<input type="submit" value="확인">
+	</form>
+
+
+</body>
+</html>
