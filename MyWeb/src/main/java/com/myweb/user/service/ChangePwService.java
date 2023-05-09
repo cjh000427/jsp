@@ -34,6 +34,9 @@ public class ChangePwService implements IUserService {
         UserVO vo = (UserVO) session.getAttribute("user");
 		String id = vo.getUserId();
 		
+//		세션에 저장한 id 추출하는 코드 (한줄로)
+//		String ss = ((UserVO)request.getSession().getAttribute("user")).getUserId();
+		
 		response.setContentType("text/html; charset=UTF-8");
 		String htmlCode;
 		PrintWriter out;
